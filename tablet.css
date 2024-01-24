@@ -1,0 +1,63 @@
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+
+    .navbar {
+        margin-top: -.3rem;
+    }
+
+    .navbar a {
+        font-size: .8rem;
+        margin-left: 1.5rem;
+    }
+
+    .navbar a:hover {
+        color: #FCFCFC;
+        font-size: 1rem;
+    }
+
+    .welcome h1 {
+        font-size: 6rem;
+    }
+
+    h1, h2, h3 {
+        font-size: 2rem;
+    }
+
+    #nametitle {
+        font-size: 2rem;
+    }
+
+    .about .row img {
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding-right: 5rem;
+        padding-top: 4.5rem;
+    }
+
+    #aboutdescription {
+        margin-top: -6rem;
+    }
+
+    #codingtitle {
+        padding-bottom: 2.5rem;
+    }
+
+    i {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+
+    .message .row {
+        grid-template-columns: 1fr;
+        margin-left: 6rem;
+    }
+
+    #formmessage {
+        margin-bottom: -15rem;
+    }
+
+    .invitation p {
+        margin-top: -5rem;
+    }
+}
